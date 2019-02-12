@@ -2,7 +2,7 @@
 
 "What is an Hidden Markov Model?" ([PDF](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/hmm_primer.pdf))
 
-1. Download the file `marmic_mcrA.fa` from [here](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/marmic_mcrA.fa).
+1. Download the file `marmic_mcrA.fa` from [here](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/data/marmic_mcrA.fa).
 
 `add wget [link to the file (better if included in double quotes)]`
 
