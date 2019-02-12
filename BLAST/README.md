@@ -26,7 +26,7 @@ Sequence database: specially formatted multifasta file of sequences. Remember mu
 
 3. Now you can start using the command line blast. Firstly you need to have the blast programs in your default path. To do this, type the command below:
 
-  `export PATH=$PATH: /bioinf/software/blast+/blast+-2.2/bin`
+  `export PATH=$PATH:/bioinf/software/blast+/blast+-2.2/bin`
 
   - Check the usage and options for the ‘makeblastdb’ program:
 
