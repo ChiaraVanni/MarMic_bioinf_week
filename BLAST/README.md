@@ -34,7 +34,7 @@ Sequence database: specially formatted multifasta file of sequences. Remember mu
 
   - Now do the formatting of the 16S rRNA database (marmic_aquificae_db). Check with the help to see if the command given below is correct.
 
-    `makeblastdb –in [filename_here] –dbtype nucl –parse_seqids -out [databasename_here] -title “[title_here]”`
+    `makeblastdb –in [filename_here] –dbtype nucl –parse_seqids -out [databasename_here] -title ["title_here"]`
 
 4. Now you want to compare the query sequences against all the sequences in the database
 
@@ -42,7 +42,7 @@ Sequence database: specially formatted multifasta file of sequences. Remember mu
 
     - Now time for the blast search:
 
-    `blastn -task blastn -db [databasename_here] -query [queryfilename_here] – evalue 0.00001 –perc_identity 97 -out [outputfilename_here] –outfmt “6 sacc qacc qstart qend sstart send qseq evalue pident bitscore”`
+    `blastn -task blastn -db [databasename_here] -query [queryfilename_here] -evalue 0.00001 -perc_identity 97 -out [outputfilename_here] -outfmt "6 sacc qacc qstart qend sstart send qseq evalue pident bitscore"`
 
   When the process is finished you are notified and can look at the output file to check the results.
 
@@ -50,11 +50,11 @@ Sequence database: specially formatted multifasta file of sequences. Remember mu
 
   - First type in the following command to retrieve the subject accession numbers as a list from the output file.
 
-  `cut –f 1 [outputfilename_here] > sbj_acc.txt`
+  `cut -f1 [outputfilename_here] > sbj_acc.txt`
 
   - Now you will use the blastdbcmd, which is a program used to examine contents of a blast database. In our case, we will try to retrieve the corresponding taxonomic classifications of the subject sequences.
 
-  `blastdbcmd –db [databasename_here] –entry_batch [sbj_acc.txt] –outfmt “%a %t ” > tax.txt`
+  `blastdbcmd -db [databasename_here] -entry_batch sbj_acc.txt -outfmt "%a %t " > tax.txt`
 
   - Now we want to join the output file, and the taxonomic classification.
 
