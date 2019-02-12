@@ -10,10 +10,9 @@ Sequence database: specially formatted multifasta file of sequences. Remember mu
 
   • Find the files `marmic_aquificae_db.fasta.tar.gz` (database) and `marmic_16Sseq.fasta.tar.gz` (query) [here](https://github.com/ChiaraVanni/MarMic_bioinf_week/tree/master/BLAST/data)
 
-  • Download the files to your directory and extract the archives using the following command in your terminal:
-
+  • Cd into the folder `MarMic_bioinf_week/BLAST/`. In the folder `data/` you find the 2 fasta file tar compressed. So first thing, uncompress them:
+  
   ```
-  wget (link to the file, better if in double quotes)
   tar -zxvf [filename_here]
   ```
 
