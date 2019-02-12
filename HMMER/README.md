@@ -2,9 +2,7 @@
 
 "What is an Hidden Markov Model?" ([PDF](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/hmm_primer.pdf))
 
-1. Download the file `marmic_mcrA.fa` from [here](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/data/marmic_mcrA.fa).
-
-`add wget [link to the file (better if included in double quotes)]`
+1. Go to the folder `MarMic_bioinf_week/HMMER`, in `data/` you can find the file `marmic_mcrA.fa`
 
   The file contains 15 aligned mcrA sequences, which represent the alpha subunit of methyl coenzyme M reductase, also called coenzyme-B sulfoethylthiotransferase. This enzyme, with alpha, beta, and gamma subunits, catalyzes the last step in methanogenesis.
 
