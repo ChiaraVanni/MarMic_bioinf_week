@@ -30,6 +30,14 @@ Go to the NCBI Genomes page; find, and download the genome sequence of *Methanop
 
 `wget [link to protein_file_name]`
 
+<!---
+`wget "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/185/GCA_000007185.1_ASM718v1/GCA_000007185.1_ASM718v1_protein.faa.gz"`
+--->
+
+Unzip the file:
+
+`gunzip [protein_file_name]`
+
 Again, have a look at the usage and options of hmmsearch program by typing:
 
 `/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmsearch -h`
