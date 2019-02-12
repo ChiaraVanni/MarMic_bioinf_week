@@ -2,7 +2,7 @@
 
 "What is an Hidden Markov Model?" ([PDF](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/HMMER/hmm_primer.pdf))
 
-1. Go to the folder `MarMic_bioinf_week/HMMER`, in `data/` you can find the file `marmic_mcrA.fa`
+1. Cd into the folder `MarMic_bioinf_week/HMMER`, in `data/` you can find the file `marmic_mcrA.fa`
 
   The file contains 15 aligned mcrA sequences, which represent the alpha subunit of methyl coenzyme M reductase, also called coenzyme-B sulfoethylthiotransferase. This enzyme, with alpha, beta, and gamma subunits, catalyzes the last step in methanogenesis.
 
@@ -20,7 +20,7 @@ First have a look at the usage and options of hmmbuild program by typing:
 
 To build the HMM profile type:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmbuild --informat afa --amino mcrA.hmm marmic_mcrA.fa`
+`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmbuild --informat afa --amino mcrA.hmm data/marmic_mcrA.fa`
 
 Take a look at the profile file (`mcrA.hmm`), does it look similar to those you have seen in PFAM?
 
