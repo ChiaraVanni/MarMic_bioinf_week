@@ -1,6 +1,6 @@
 ## Dynamic programming
 
-"What is dynamic programming?" ([PDF](https://github.com/hseifert/MarMic_BioInf_Teaching/blob/master/Dynamic_progr/dynamicprogramming_primer.pdf))
+"What is dynamic programming?" ([PDF](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/dynamicprogramming_primer.pdf))
 
 1. Why do we need to do sequence comparisons?
 2. What do you need for an assessment of how similar 2 sequences are to
@@ -20,7 +20,7 @@ b. Calculate identity and edit-distance of the sequences in exercise 3.
 c. Now, calculate the identity score of your alignment in 3
 
 5. Calculate the similarity score according to the BLOSUM62
-substitution matrix ([here](https://github.com/hseifert/MarMic_BioInf_Teaching/blob/master/Dynamic_progr/BLOSUM62.jpg)) for the following alignment.
+substitution matrix ([here](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/BLOSUM62.jpg)) for the following alignment.
 
 ```
 SKLQETMKCV
@@ -30,7 +30,7 @@ SKGQETIKMV
 
 7. Construct a “dotplot” for the following 2 sequences, i.e. for identical symbols, mark the respective square by a diagonal: What does the alignment look like? (is more than one alignment possible?)
 
-![da_matrix1](https://github.com/hseifert/MarMic_BioInf_Teaching/blob/master/Dynamic_progr/assets/da_matrix1.png)
+![da_matrix1](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/assets/da_matrix1.png)
 
 8. What is “Dynamic Programming” (DP)?
 
@@ -39,7 +39,7 @@ SKGQETIKMV
 
   Scoring: s(a,a) = 1; s(a,b) = -1; s(a,-) = s(-,a) = -1
 
-![da_matrix2](https://github.com/hseifert/MarMic_BioInf_Teaching/blob/master/Dynamic_progr/assets/da_matrix2.png)
+![da_matrix2](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/assets/da_matrix2.png)
 
 a. How is the matrix initialized for a global alignment?
 
@@ -56,7 +56,7 @@ e. With respect to the comparison of the two sequences: what does each cell of t
 
   Scoring: s(a,a) = 1; s(a,b) = -1; s(a,-) = s(-,a) = -1
 
-![da_matrix3](https://github.com/hseifert/MarMic_BioInf_Teaching/blob/master/Dynamic_progr/assets/da_matrix3.png)
+![da_matrix3](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/assets/da_matrix3.png)
 
   a. How is the matrix initialized for a local alignment?
 
