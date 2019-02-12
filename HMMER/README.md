@@ -28,7 +28,7 @@ Take a look at the profile file (`mcrA.hmm`), does it look similar to those you 
 
 Go to the NCBI Genomes page; find, and download the genome sequence of *Methanopyrus kandleri* AV19 in fasta format, make sure you download the amino acid sequences (or open reading frames), not the nucleotides!
 
-`wget [link to protein_file_name]`
+`wget [link to genome_protein_file_name]`
 
 <!---
 `wget "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/007/185/GCA_000007185.1_ASM718v1/GCA_000007185.1_ASM718v1_protein.faa.gz"`
@@ -36,7 +36,7 @@ Go to the NCBI Genomes page; find, and download the genome sequence of *Methanop
 
 Unzip the file:
 
-`gunzip [protein_file_name]`
+`gunzip [genome_protein_file_name]`
 
 Again, have a look at the usage and options of hmmsearch program by typing:
 
@@ -44,7 +44,7 @@ Again, have a look at the usage and options of hmmsearch program by typing:
 
 Now time for the HMM search:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmsearch mcrA.hmm [genome_fasta_name_here] > mcrA_methanpy.out`
+`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmsearch mcrA.hmm [genome_protein_file_name] > mcrA_methanpy.out`
 
 In the output file:
 
