@@ -59,7 +59,7 @@ Again, have a browse around; try to figure out what MG-RAST is all about and wha
 3. What does *Cenarchaeum symbiosum* do?
 
 Now we will go back to primary databases and try to find some information on Csymb’s genome and functional repertoire:
-http://www.ncbi.nih.gov
+https://www.ncbi.nlm.nih.gov/
 
 Try searching for the full name of Csymb on the NCBI homepage. The search results are displayed in a combined portal called “Entrez”.
 
