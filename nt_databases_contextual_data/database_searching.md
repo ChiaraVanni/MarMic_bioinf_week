@@ -31,13 +31,14 @@ Here, use the search page to find the sequence information that SILVA provides o
 - Is this sequence likely to be a chimera (check the definition of chimeric sequences and the pintail program)?
 - What is the sequence length?
 
-Once you are done with the above questions, follow the link to ENA and download the Csymb sequence in FASTA format. We will now use the“search” function of the “SINA” online aligner on SILVA website to retrieve sequences related to Csymb sequence. Find the aligner page, upload the FASTA sequence that downloaded from ENA, and set the following parameters for the aligner:
+Once you are done with the above questions, follow the link to ENA and download the Csymb sequence in FASTA format. We will now use the “search” function of the “SINA” online aligner on SILVA website to retrieve sequences related to Csymb sequence. Find the aligner page, upload the FASTA sequence that downloaded from ENA, and set the following parameters for the aligner:
 
 - Check the box “search and classify”
 - Set “min identity with query sequence” to 0.85
 - Set “number of neighbors to query sequence” to 50
 - Under “advanced alignment parameters” check the option saying “Archaea” under the “Variability profile” menu
-- Under “advanced search and classification parameters” change the “Ref NR” selection to “Ref”. Run the aligner and once finished, “add the neighbors to the cart”. Now find the “show cart” option and start searching in your cart.
+- Under “advanced search and classification parameters” change the “Ref NR” selection to “Ref”. 
+- Run the aligner and once finished, “add the neighbors to the cart”. Now find the “show cart” option and start searching in your cart.
 - How many of the neighbor sequences as from “cultured” (or names
 organisms)?
 - Are there any rRNA sequences from genomes among these (hint: use strain field in search, or check the accession number)? If you find one, note this down.
