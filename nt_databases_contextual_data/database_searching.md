@@ -50,7 +50,7 @@ Once you are done with answering these questions, download your cart sequences i
 Now we will try to see where Csymb lives (or the relatives of it). We will first visit a portal called MG-RAST:
 http://metagenomics.anl.gov/
 
-Again, have a browse around; try to figure out what MG-RAST is all about and what it does. Once you are done, find the search page, and do an advanced search on organism name, with the condition that it “equals to” *Cenarchaeum symbiosum*
+Again, have a browse around; try to figure out what MG-RAST is all about and what it does. Once you are done, find the search page, and do an advanced search using the taxonomic rank.
 
 - How many metagenomes did you find that contain Csymb?
 - Did you find Csymb in environments other than the marine environment?
