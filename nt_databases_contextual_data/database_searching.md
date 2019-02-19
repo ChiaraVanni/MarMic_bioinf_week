@@ -41,7 +41,7 @@ Once you are done with the above questions, follow the link to ENA and download 
 - Run the aligner and once finished, “add the neighbors to the cart”. Now find the “show cart” option and start searching in your cart.
 - How many of the neighbor sequences as from “cultured” (or names
 organisms)?
-- Are there any rRNA sequences from genomes among these (hint: use strain field in search, or check the accession number)? If you find one, note this down.
+- Are there any rRNA sequences from genomes among these (hint: check the accession number)? If you find one, note this down.
 
 Once you are done with answering these questions, download your cart sequences in arb file format. Normally, the next step would be to construct a phylogenetic tree with your sequence of interest and the neighboring sequences. Unfortunately, we will not have time for this.
 
