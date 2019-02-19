@@ -1,6 +1,6 @@
 ### DATABASES AND INFORMATION RETRIEVAL
 
-In this exercise we will focus on getting together information on the archaeon *Cenarchaeum symbiosum* (Csymb) from a variety of biological data resources, because we have a project starting on Csymb proteomics. As good scientists, we first want to know who Csymb is, who is it related to, where does it live, what does it do, does it have its genome sequenced etc…
+In this exercise we will focus on getting together information on the archaeon *Cenarchaeum symbiosum* (Csymb) from a variety of biological data resources. Let's say we have a project starting on Csymb proteomics. As good scientists, we first want to know who Csymb is, who is it related to, where does it live, what does it do, does it have its genome sequenced etc…
 The resources we will use range from primary sequence databases, to microbial nomenclatural resources; therefore, at the end of this exercise you should have a good idea of where to get taxonomic, phylogenetic, DNA/protein sequence, metabolic, and genomic data.
 
 1. Who is *Cenarchaeum symbiosum*?
