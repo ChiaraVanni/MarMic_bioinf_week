@@ -3,6 +3,9 @@
 "What is dynamic programming?" ([PDF](https://github.com/ChiaraVanni/MarMic_bioinf_week/blob/master/Dynamic_progr/dynamicprogramming_primer.pdf))
 
 1. Why do we need to do sequence comparisons?
+
+
+
 2. What do you need for an assessment of how similar 2 sequences are to
 each other?
 3. “Align” the following symbol sequences by hand, i.e. position
