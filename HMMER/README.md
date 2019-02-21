@@ -22,7 +22,7 @@ To build the HMM profile type:
 
 `/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmbuild --informat afa --amino mcrA.hmm data/marmic_mcrA.fa`
 
-Take a look at the profile file (`mcrA.hmm`), does it look similar to those you have seen in PFAM?
+Take a look at the profile file (`mcrA.hmm`), does it look similar to those you have in PFAM (have a look at one Pfam domain HMM here https://pfam.xfam.org/family/ABC_tran#tabview=tab6)?
 
 3. Now we want to use this profile to search for mcrA in other organisms. For the sake of results, we will perform an HMM search on the genome of *Methanopyrus kandleri* AV19, but you can use this profile to search for mcrAs in any other genome or metagenome sequence.
 
