@@ -16,11 +16,13 @@ The file contains 15 aligned mcrA sequences, which represent the alpha subunit o
 
 First have a look at the usage and options of hmmbuild program by typing:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmbuild -h`
+`export PATH=/bioinf/software/hmmer/hmmer-3.1b2/bin:$PATH`
+
+`hmmbuild -h`
 
 To build the HMM profile type:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmbuild --informat afa --amino mcrA.hmm data/marmic_mcrA.fa`
+`hmmbuild --informat afa --amino mcrA.hmm data/marmic_mcrA.fa`
 
 Take a look at the profile file (`mcrA.hmm`), does it look similar to those you have in PFAM (have a look at one Pfam domain HMM here https://pfam.xfam.org/family/ABC_tran#tabview=tab6)?
 
@@ -40,11 +42,11 @@ Unzip the file:
 
 Again, have a look at the usage and options of hmmsearch program by typing:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmsearch -h`
+`hmmsearch -h`
 
 Now time for the HMM search:
 
-`/bioinf/software/hmmer/hmmer-3.1b2/bin/hmmsearch mcrA.hmm [genome_protein_file_name] > mcrA_methanpy.out`
+`hmmsearch mcrA.hmm [genome_protein_file_name] > mcrA_methanpy.out`
 
 In the output file:
 
